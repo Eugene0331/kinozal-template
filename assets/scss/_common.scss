@@ -3,11 +3,13 @@ html {
 }
 
 body {
-  font-size: $font-size;
-  font-family: $font-main;
-  min-height: 101vh;
-  min-width: 100%;
   overflow-x: hidden;
+
+  min-width: 100%;
+  min-height: 101vh;
+
+  font-family: $font-main;
+  font-size: $font-size;
 }
 
 a {
@@ -16,6 +18,7 @@ a {
   &:hover,
   &:focus {
     text-decoration: none;
+
     color: $color-accent;
   }
 }
