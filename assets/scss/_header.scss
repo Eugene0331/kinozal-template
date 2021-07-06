@@ -35,6 +35,8 @@
   &__description {
     display: block;
 
+    // margin-right: -0.2em;
+
     letter-spacing: 0.2em;
 
     color: $color-light;
@@ -42,6 +44,5 @@
     font-size: 1.15rem;
 
     @extend %text-shadow;
-    // margin-right: -0.2em;
   }
 }

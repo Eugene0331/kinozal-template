@@ -7,9 +7,9 @@
 }
 
 .navbar-inverse {
-  background-color: #191919;
-  border-color: transparent;
   margin-bottom: 0;
+  border-color: transparent;
+  background-color: #191919;
 }
 
 .navbar-inverse .navbar-nav .active > a {
@@ -56,11 +56,11 @@
 }
 
 .panel-info > .panel-heading {
-  color: #ffffff;
-  background-color: #df8a13;
-  border: none;
-  font-size: 1.25rem;
   letter-spacing: 0.08em;
+  color: #ffffff;
+  border: none;
+  background-color: #df8a13;
+  font-size: 1.25rem;
 }
 
 .panel-body {
@@ -68,16 +68,20 @@
   border-radius: 0 0 4px 4px;
 }
 
+.input-group-lg > .form-control {
+  font-size: 0.875rem;
+}
+
 html {
   font-size: 16px;
 }
 
 body {
-  font-size: 16px;
-  font-family: "PT Sans", sans-serif;
-  min-height: 101vh;
-  min-width: 100%;
   overflow-x: hidden;
+  min-width: 100%;
+  min-height: 101vh;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
 }
 
 a {
@@ -100,17 +104,17 @@ a:hover, a:focus {
 
 .header-logo__title {
   display: block;
+  margin-right: -0.33em;
+  letter-spacing: 0.33em;
   color: #df8a13;
   font-family: "PT Serif", serif;
-  letter-spacing: 0.33em;
-  margin-right: -0.33em;
 }
 
 .header-logo__description {
   display: block;
+  letter-spacing: 0.2em;
   color: #ffffff;
   font-size: 1.15rem;
-  letter-spacing: 0.2em;
 }
 
 .main {
@@ -118,8 +122,8 @@ a:hover, a:focus {
 }
 
 .vertical-slider {
-  border-radius: 4px;
   overflow: hidden;
+  border-radius: 4px;
 }
 
 .vertical-slider__image {
