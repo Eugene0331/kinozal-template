@@ -65,7 +65,7 @@
 }
 
 .panel {
-  background-color: darken($color-light, 7%);
+  background-color: darken($color-light, 5%);
 
   &:not(:last-of-type) {
     margin-bottom: $gap * 2;
@@ -93,7 +93,13 @@
     border-radius: 0 0 4px 4px;
   }
 }
+.input {
+  &-lg,
+  &-group-lg > .form-control {
+    font-size: 0.875rem;
+  }
+}
 
-.input-group-lg > .form-control {
-  font-size: 0.875rem;
+.thumbnail {
+  transition: background-color 0.5s;
 }
