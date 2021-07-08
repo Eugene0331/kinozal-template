@@ -75,7 +75,9 @@
 
     &__button {
       float: right;
+
       margin-bottom: $gap * 2;
+
       transition: background-color 0.25s;
     }
     &:hover {
